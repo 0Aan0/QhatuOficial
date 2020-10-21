@@ -116,6 +116,7 @@ namespace QhatuOficialView {
 			this->btnRegisterSale->TabIndex = 26;
 			this->btnRegisterSale->Text = L"Registrar Venta";
 			this->btnRegisterSale->UseVisualStyleBackColor = true;
+			this->btnRegisterSale->Click += gcnew System::EventHandler(this, &SaleForm::btnRegisterSale_Click);
 			// 
 			// radioGroup
 			// 
@@ -408,6 +409,9 @@ private: System::Void btnDeleteProduct_Click(System::Object^ sender, System::Eve
 	else {
 		MessageBox::Show("Para eliminar un producto debe seleccionar todo el registro");
 	}
+}
+private: System::Void btnRegisterSale_Click(System::Object^ sender, System::EventArgs^ e) {
+
 }
 };
 }

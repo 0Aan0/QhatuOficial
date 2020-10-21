@@ -21,12 +21,18 @@
     <ClCompile Include="SaleForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TicketForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SalesMainForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SaleForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
