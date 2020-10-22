@@ -1,18 +1,18 @@
+#include "pch.h"
+#include "QhatuOficialModel.h"
 
-#include "SalesModel.h"
-
-SalesModel::Customer::Customer(String^ name, String^ lastName, int age, char gender) {
+QhatuOficialModel::Customer::Customer(String^ name, String^ lastName, int age, char gender) {
 	this->Name = name;
 	this->LastName = lastName;
 	this->Age = age;
 	this->Gender = gender;
 }
 
-SalesModel::Worker::Worker()
+QhatuOficialModel::Worker::Worker()
 {
 }
 
-SalesModel::Worker::Worker(String^ name, String^ lastName, double salary, String^ password, int userID)
+QhatuOficialModel::Worker::Worker(String^ name, String^ lastName, double salary, String^ password, int userID)
 {
 	Name = name;
 	LastName = lastName;
@@ -20,14 +20,14 @@ SalesModel::Worker::Worker(String^ name, String^ lastName, double salary, String
 	Password = password;
 	UserID = userID;
 }
-SalesModel::Book::Book()
+QhatuOficialModel::Book::Book()
 {
 
 }
 
-SalesModel::Book::Book(int productid, String^ name, String^ description, String^ author, String^ title, double price,
+QhatuOficialModel::Book::Book(int productid, String^ name, String^ description, String^ author, String^ title, double price,
 	int stockTotal, String^ edition, String^ editorial, int year, char status) :
-	SalesModel::Product::Product(productid, name, description, stockTotal, price, status) {
+	QhatuOficialModel::Product::Product(productid, name, description, stockTotal, price, status) {
 	/*
 	Id = id;
 	Name = name;
@@ -43,12 +43,12 @@ SalesModel::Book::Book(int productid, String^ name, String^ description, String^
 	Year = year;
 }
 
-SalesModel::Product::Product()
+QhatuOficialModel::Product::Product()
 {
 
 }
 
-SalesModel::Product::Product(int productid, String^ name, String^ description, int stockTotal, double price, char status)
+QhatuOficialModel::Product::Product(int productid, String^ name, String^ description, int stockTotal, double price, char status)
 {
 	ProductID = productid;
 	Name = name;

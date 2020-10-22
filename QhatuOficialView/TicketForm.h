@@ -13,7 +13,7 @@ namespace QhatuOficialView {
 	/// Summary for TicketForm
 	/// </summary>
 	public ref class TicketForm : public System::Windows::Forms::Form
-	{
+	{ 
 	public:
 		TicketForm(void)
 		{
@@ -56,27 +56,18 @@ namespace QhatuOficialView {
 			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
-			// richTextBox1
-			// 
 			this->richTextBox1->Location = System::Drawing::Point(27, 12);
 			this->richTextBox1->Name = L"richTextBox1";
 			this->richTextBox1->ReadOnly = true;
 			this->richTextBox1->Size = System::Drawing::Size(408, 333);
 			this->richTextBox1->TabIndex = 0;
 			this->richTextBox1->Text = L"";
-			// 
-			// button1
-			// 
 			this->button1->Location = System::Drawing::Point(183, 363);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"Aceptar";
 			this->button1->UseVisualStyleBackColor = true;
-			// 
-			// TicketForm
-			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(473, 398);

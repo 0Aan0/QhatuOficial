@@ -144,6 +144,14 @@
       <DependentUpon>TicketForm.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QhatuOficialController\QhatuOficialController.vcxproj">
+      <Project>{a4f5e6a5-f8c2-4545-a99d-376dfbc11971}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\QhatuOficialModel\QhatuOficialModel.vcxproj">
+      <Project>{6c530266-1c12-4475-a9a7-b03da167ad7f}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
